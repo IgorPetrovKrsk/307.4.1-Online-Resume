@@ -13,6 +13,11 @@ body{
     font-family: roboto;
     background-color: #0C0C0C;
     color: #9B3922;
+    padding: 10px;
+}
+
+h1{
+    padding-left: 10px;
 }
 a{
     color: #9B3922;    
@@ -26,7 +31,7 @@ a{
 #divPhoto{
     display: flex;
     width: 50%;
-    height: 150px;  
+    height: 120px;  
     border: 3px solid #481E14;
     padding: 5px;
 
@@ -43,6 +48,9 @@ margin-left: 10px;
 #imgLinkedIn{
     padding-left: 5px;
     width: 17px;
+}
+#aAndroidDeveloperLink{
+    padding-left: 10px;    
 }
 
 #divNameAdress{
