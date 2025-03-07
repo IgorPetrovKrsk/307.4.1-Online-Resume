@@ -1,3 +1,68 @@
-*{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto-100 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+body{
+    font-family: roboto;
+    background-color: #0C0C0C;
+    color: #9B3922;
+}
+a{
+    color: #9B3922;    
+}
+
+#divSection1{
+    display: flex;
+
+}
+
+#divPhoto{
+    display: flex;
+    width: 50%;
+    height: 150px;  
+    border: 3px solid #481E14;
+    padding: 5px;
+
+}
+#divName{
+margin-left: 10px;
+}
+
+#imgPhoto{
+    width: 100%;
+    object-fit:contain;        
+}
+
+#imgLinkedIn{
+    padding-left: 5px;
+    width: 17px;
+}
+
+#divNameAdress{
+    display: flex;
+    border: 3px solid #481E14;  
+    width: 50%;  
+    margin-left: 5px;
+}
+
+#divNameAdressHeader{
+    text-align: end;
+    padding-left: 10px;
+    padding-right: 2px;
+    align-content: center;    
+}
+
+#divNameAdressInfo{
+    text-align: start;
+    padding-left: 10px;
+    padding-right: 2px;
+    align-content: center;
+
 }
